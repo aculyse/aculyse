@@ -1,0 +1,3 @@
+function extend(d,c){for(var e in c){if(c.hasOwnProperty(e)){d[e]=c[e]}}return d}function MashcomNotifications(a){this.options=extend({},this.options);extend(this.options,a);this._init()}MashcomNotifications.prototype.options={message:"hey there",type:"notice",time:300};MashcomNotifications.prototype._init=function(){console.log(this.options.message)};MashcomNotifications.prototype.show=function(){};var x=new MashcomNotifications();x.show();
+/*Size: 611->439Bytes 
+ Saved 28.15057%*/

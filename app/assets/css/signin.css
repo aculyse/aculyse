@@ -1,0 +1,112 @@
+html{
+  height:100%;
+}
+
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-repeat: repeat;
+  height: 100% !important;
+  background:#307699 !important;
+  border-color: #307699;
+}
+
+.form-signin {
+  width: 417px;
+  padding: 15px;
+  margin: 5% auto 4%;
+  background: #fff;
+  border-radius:5px;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 3px 7px rgba(0, 0, 0, 0.3), inset 0 1px rgba(255,255,255,1), inset 0 -3px 2px rgba(0,0,0,0.25);
+  	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+
+ }
+ .form-signin:hover{
+
+ }
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.logo,.logo *{
+  font-size: 40px !important;
+
+}
+.logo{
+  margin-bottom:100px;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px 5px;
+  font-size: 13px;
+  border-radius:0;
+  border: 1px solid #E6E9ED;
+-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+-webkit-transition: border linear .2s, box-shadow linear .2s;
+-moz-transition: border linear .2s, box-shadow linear .2s;
+-o-transition: border linear .2s, box-shadow linear .2s;
+transition: border linear .2s, box-shadow linear .2s;
+
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.1), inset 0 3px 2px rgba(0,0,0,0.1);
+border-radius: 3px;
+  }
+
+.form-signin .form-control:focus {
+  z-index: 2;
+  box-shadow:none;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.btn{
+  /* box-shadow: 0 0 2px rgba(0,0,0,0.1), 0 3px 2px rgba(0,0,0,0.1), inset 0 -3px 2px rgba(0,0,0,0.2); */
+}
+
+.typcn{
+  font-size:18px;
+  color:#888;
+
+}
+
+#cool-avatar{
+  position:absolute;
+  top:-60px;
+  left: 35%;
+}
+.absolute{
+  margin-top:60px;
+}
+.relative{
+  position:relative;
+}
+.full-progress{
+  position:absolute !important;
+  height: 100% !important;
+  background: #f7f7f7 no-repeat fixed !important;
+  top:0;
+  overflow:hidden;
+  left:0;
+}
+.full-progress .logo{
+  color:#999 !important;
+  font-size:70px !important;
+}
+.full-progress .logo .light{
+   font-size:70px !important;
+}

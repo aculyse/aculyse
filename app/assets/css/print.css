@@ -1,0 +1,107 @@
+/*print style */
+
+@media print{
+    *{
+        box-shadow: none !important;
+    }
+    body,html,.main{
+        width:100% !important;
+        background: #fff !important;
+       font-family:helvetica,sans-serif !important;
+    }
+    .highcharts-container{
+      width: 100% !important;
+    }
+    .main{
+        margin: 0 !important;
+    }
+    .panel{
+        padding:0px !important;
+    }
+    .panel-primary > .panel-heading,.panel-heading {
+        color: #fff !important;
+        background: #000 !important;
+        background-color: #434A54 !important;
+        border:none !important;
+        padding: 1px !important;
+
+    }
+    .panel-heading .glyph-icon{
+        color: #fff !important;
+    }
+    .panel-primary {
+        /*border: solid 1px #777 !important;*/
+    }
+    th{
+        background: #eaeaea !important;
+    }
+    *{
+        font-size:12px;
+        box-shadow: none !important;
+    }
+    .no-print,button,.alert,.alert-info,.sidebar,.navbar{
+        display: none !important;
+    }
+    .print-q{
+
+    }
+    table tr:nth-child(odd){
+        background: #F5F7FA !important;
+    }
+    table tr{
+        border:solid thin #000 !important;
+    }
+    .only-print{
+        display: block !important;
+    }
+    .force-half{
+    	width: 47% !important;
+    	float:lect !important;
+    }
+    .force-half .panel{
+    	/*float:left !important;*/
+    }
+    .pb{
+        page-break-before: always !important;
+        float:none !important;
+    }
+    .pb_auto{
+         page-break-before: auto !important;
+    }
+    .logo{
+        color: #20374f !important;
+        font-size: 30px !important;
+
+    }
+   .profile-pic{
+        width: 200px;
+        height: 200px;
+    }
+    .shaddy td{
+        background: #000 !important;
+        background-color: #000 !important;
+    }
+    .edit-badge{
+        display:none !important;
+    }
+    table *{
+       /* font-weight:bold !important;*/
+        color: #333;
+        font-size: 11px !important;
+    }
+    a[href]:after{
+        content: none !important;
+    }
+    .content-wrapper, .right-side, .main-footer{
+      margin-left: 0 !important;
+    }
+    .main-sidebar{
+      display: none !important;
+    }
+    .content-wrapper{
+      width: 100% !important;
+    }
+    .main-sidebar{
+      display: none !important;
+    }
+}

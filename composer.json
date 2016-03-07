@@ -1,0 +1,33 @@
+{
+	"name": "aculyse/aculyse",
+	"description": "Academic student perfomance assessment and analysis software",
+	"keywords": ["analysis", "aculyse"],
+	"license": "MIT",
+	"type": "project",
+	"authors": [
+        {
+            "name": "Blessing Mashoko",
+            "email": "projects@bmashoko.com",
+            "role": "lead"
+        }
+    ],
+	"require": {
+		"php": ">=5.3",
+		"laravel/framework": "5.0.*"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "~4.0"
+	},
+	"autoload": {
+		"classmap": [
+			"app/logic",
+			"vendor"
+		],
+		"psr-4": {
+			"Aculyse\\": "app/logic",
+			"Aculyse\\Models\\": "models",
+			"Aculyse\\Testing\\": "tests",
+			"Aculyse\\Install\\":"app/install/logic"
+		}
+	}
+}
