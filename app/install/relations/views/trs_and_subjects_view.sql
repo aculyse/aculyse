@@ -1,0 +1,1 @@
+CREATE VIEW `teacher_with_their_subjects` AS select `trs and subjects`.`id` AS `id`,`trs and subjects`.`deleted` AS `deleted`,`subjects`.`title` AS `title`,`trs and subjects`.`teacher_id` AS `teacher_id`,`trs and subjects`.`class` AS `class`,`trs and subjects`.`subject` AS `subject` from (`trs and subjects` join `subjects`) where (`trs and subjects`.`subject` = `subjects`.`id`);

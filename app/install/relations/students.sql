@@ -1,0 +1,20 @@
+CREATE TABLE IF NOT EXISTS `students` (
+`id` int(11) NOT NULL,
+  `student_id` varchar(12) NOT NULL,
+  `class_name` varchar(200) NOT NULL,
+  `class of` int(11) NOT NULL,
+  `school` text NOT NULL,
+  `password` varchar(100) NOT NULL,
+  `firstname` text NOT NULL,
+  `middle name` text NOT NULL,
+  `surname` text NOT NULL,
+  `home` text NOT NULL,
+  `cell number` varchar(150) NOT NULL,
+  `email` varchar(150) NOT NULL,
+  `dob` varchar(100) NOT NULL,
+  `sex` enum('MALE','FEMALE') NOT NULL,
+  `piclink` varchar(100) NOT NULL,
+  `status` enum('activated','deactivated','suspended','graduated','deferred','drop-out','deleted') NOT NULL DEFAULT 'deactivated',
+  `created_at` datetime NOT NULL,
+  `updated_at` datetime NOT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
