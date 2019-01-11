@@ -1,3 +1,5 @@
+# THIS PROJECT IS IN ARCHIVE MODE, NOT FUTURE UPDATES WILL BE RELEASED
+
 ## Aculyse
 
 Aculyse is a web application mearnt for schools and individuals to help in perfomance assessment and analysis. It allows collaboration between teachers, administrators, principals and guardians. 
