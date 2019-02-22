@@ -4,10 +4,6 @@
 
 Aculyse is a web application mearnt for schools and individuals to help in perfomance assessment and analysis. It allows collaboration between teachers, administrators, principals and guardians. 
 
-##Notice
-This is a beta release, it can be safe to consider the platform unstable.
-
-
 ##Documentation
 Currently you can generate documentation using apigen. For more information visit apigen.org 
 
@@ -23,7 +19,6 @@ We take contribution in different ways. If you can do any of the following:
 4. Evangelism
 5. etc
 
-Make sure you test your code before pushing it.
 
 ### License
 
